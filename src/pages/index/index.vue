@@ -18,7 +18,9 @@
       <input type="text" class="form-control" v-model="motto" placeholder="v-model" />
       <input type="text" class="form-control" v-model.lazy="motto" placeholder="v-model.lazy" />
     </form>
-    <a href="/pages/counter/main" class="counter">去往Vuex示例页面不是吧</a>
+    <a href="/pages/counter/main" class="counter">去往Vuex示例页面</a>
+    <a href="/pages/addCard/main" class="counter">添加信用卡</a>
+    <button type="warn">页面主操作 Normal</button>
   </div>
 </template>
 
